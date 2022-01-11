@@ -1,17 +1,18 @@
 '''Opens a new tab on the browser with the selected AWS service.'''
 
-from albertv0 import *
+from albert import *
 import os
 import re
 from urllib.parse import urlencode
 
-__iid__ = "PythonInterface/v0.1"
-__prettyname__ = 'Aws Caller'
-__version__ = '1.0'
-__trigger__ = 'aws'
-__author__ = '<Lucca Mendonça> lucca.mendonca@gmail.com'
+__authors__ = '<Lucca Mendonça> lucca.mendonca@gmail.com'
 __dependencies__ = []
 __icon_path__ = os.path.dirname(__file__)+"/logo.svg"
+__iid__ = "PythonInterface/v0.1"
+__prettyname__ = 'Aws Caller'
+__title__ = "awscaller"
+__triggers__ = 'aws'
+__version__ = '0.1.0'
 
 def getServiceAndParams(query_string):
     query = re.split('\s+', query_string)
