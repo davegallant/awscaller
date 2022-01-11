@@ -9,10 +9,10 @@ This is a very simple Python extension for the Albert Launcher that aims to help
 
 ## Installation
 
-> Note: This plugin depends on [Albert Launcher v0.14.*](https://albertlauncher.github.io/docs/installing/)
+> Note: This plugin depends on [Albert Launcher v0.17.*](https://albertlauncher.github.io/docs/installing/)
 
 ```
-git clone https://github.com/luccamendonca/awscaller /usr/share/albert/org.albert.extension.python/modules/awscaller
+git clone https://github.com/davegallant/awscaller ~/.local/share/albert/org.albert.extension.python/modules/awscaller
 ```
 
 Then you just need to go to the Extension settings and enable the "awscaller" Python extension:
