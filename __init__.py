@@ -16,6 +16,7 @@ __version__ = "0.3.0"
 
 
 SERVICE_ALIASES = {
+    "cw": "cloudwatch",
     "eb": "elasticbeanstalk",
 }
 
