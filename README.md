@@ -5,14 +5,17 @@
   <img src="https://i.imgur.com/2Uf93Rp.png" alt="Cover image"/>
 </p>
 
-This is a very simple Python extension for the Albert Launcher that aims to help us developers/devops by opening and AWS console page using the provided service name.
+This is a Python extension for [albert](https://github.com/albertlauncher/albert) that aims to help us developers/devops by opening and AWS console page using the provided service name.
 
 ## Installation
 
-> Note: This plugin depends on [Albert Launcher v0.17.*](https://albertlauncher.github.io/docs/installing/)
+> Note: This plugin depends on [Albert Launcher v0.17.*](https://albertlauncher.github.io/installing/)
 
-```
-git clone https://github.com/davegallant/awscaller ~/.local/share/albert/org.albert.extension.python/modules/awscaller
+Clone the branch/tag you want (i.e. main, v0.3.0, etc):
+
+```sh
+git clone https://github.com/davegallant/awscaller -b main \
+  ~/.local/share/albert/org.albert.extension.python/modules/awscaller
 ```
 
 Then you just need to go to the Extension settings and enable the "awscaller" Python extension:
