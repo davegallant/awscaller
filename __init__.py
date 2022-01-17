@@ -19,6 +19,7 @@ SERVICE_ALIASES = {
     "cf": "cloudformation",
     "cw": "cloudwatch",
     "eb": "elasticbeanstalk",
+    "ssm": "systems-manager",
 }
 
 
